@@ -5,6 +5,11 @@
 import streamlit as st
 import random
 
+def wide_space_default():
+    st.set_page_config(layout="wide")
+
+wide_space_default()
+
 data = {
     "Apple": "An apple is a round, often :red[red], edible :red[fruit] produced by an apple tree (Malus spp., among them the domestic or orchard apple; Malus domestica). Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found. Apples have been grown for thousands of years in Asia and Europe and were introduced to North America by European colonists. Apples have religious and mythological significance in many cultures, including Norse, Greek, and European Christian tradition.",
     "Firetruck": "A fire engine (also known in some places as a fire truck or fire ambulance) is a (often :red[red]) vehicle, usually a specially-designed or modified truck, that functions as a firefighting apparatus. The primary purposes of a fire engine include transporting firefighters and water to an :red[emergency] as well as carrying equipment for firefighting operations in a fire drill. Some fire engines have specialized functions, such as wildfire suppression and aircraft rescue and firefighting, and may also carry equipment for technical rescue.",
